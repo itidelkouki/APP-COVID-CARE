@@ -1,0 +1,119 @@
+
+/*body {
+  font-family: "Open Sans", sans-serif;
+  color: rgb(34, 34, 34);
+  padding-bottom: 50px;
+  background-image: linear-gradient(120deg, #be99be, #dab4df, #e9d2ee);
+}*/
+.profilecontainer{
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #9c6c9e;
+  text-align: right;
+
+}
+.car-image {
+  background-image: url("https://image.freepik.com/vecteurs-libre/nombreux-virus-corona-flottant-fond-blanc-concept-prevention-maladies-par-virus_68708-865.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 120vh;
+ color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+.car-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.car-image h1 {
+  font-size: 45px;
+  margin: -20px 0 20px;
+  margin-top: 550px;
+  font-weight: bolder;
+  
+}
+.car-image h4 {
+  font-size: 35px;
+  letter-spacing: 1px;
+  color: #0bdfee;
+  font-weight: bolder;
+  margin-top: 350px;
+}
+.content h1 {
+  font-size: 4rem;
+  margin: 20px 0;
+}
+.content {
+  color: rgb(231, 195, 231);
+  line-height: 40px;
+  letter-spacing: 1.2px;
+}
+.card {
+  background-color: #ffffff5e;
+  height: 100%;
+  display: flex;
+
+  
+}
+/*.card-container{
+height: min-content;
+}*/
+.card-body {
+  padding: 30px 20px;
+  height: 520px;
+  width: 355px;
+  background-image: linear-gradient(120deg, #be99be, #dab4df, #e9d2ee);
+  
+}
+.card-title,
+.icon {
+  margin-bottom: 25px;
+  font-weight: bolder;
+  color: #f8f0f8;
+  font-size: xx-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+  
+}
+.icon {
+  font-size: 4rem;
+  color: rgb(228, 146, 221);
+}
+
+.card-text{
+ /* font-weight: bold;*/
+  color: #fcf8fc;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  
+}
+.img-Homepage{
+
+    width: 400px;
+    height: 300px;
+    background: plum;
+    position: relative;
+    animation: mymove 15s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 400px;}
+  }

@@ -1,0 +1,28 @@
+.main-services {
+  text-align: center;
+  margin-top: 10rem;
+  color: rgb(211, 206, 206);
+  padding: 3rem 0;
+}
+.services {
+  margin: 6rem 0;
+}
+.services h4 {
+  color: #1c0669;
+  margin: 2rem 0;
+  letter-spacing: 0.2rem;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.main-services h2 {
+  color: white;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.services p {
+  color: #edf2fa;
+  letter-spacing: 0.01rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
